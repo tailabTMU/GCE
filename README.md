@@ -56,3 +56,18 @@ You need to run the following commands to create results files:
 - ```docker compose exec torch bash -c "python3.9 node_classification_calibration_results.py"```: Creates a results file for each dataset in the _saved_info_node_classification_ folder.
 - ```docker compose exec torch bash -c "python3.9 heterogeneous_node_classification_calibration_results.py"```: Creates a results file in the _saved_info_heterogeneous_node_classification_folder.
 - ```docker compose exec torch bash -c "python3.9 graph_classification_calibration_results.py"```: Creates a results file for each dataset in the _saved_info_graph_classification_ folder.
+
+## Cite
+If you find the content useful for your research and applications, please cite us using this BibTeX:
+
+```bibtex
+@article{Daneshvar2024GCE,
+	author = {Daneshvar, Hirad and Samavi, Reza},
+	journal = {Proceedings of the Canadian Conference on Artificial Intelligence},
+	year = {2024},
+	month = {may 27},
+	note = {https://caiac.pubpub.org/pub/w0amk640},
+	publisher = {Canadian Artificial Intelligence Association (CAIAC)},
+	title = {GCE: Confidence {Calibration} {Error} for {ImprovedTrustworthiness} of {Graph} {Neural} {Networks}},
+}
+```
